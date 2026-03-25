@@ -1,0 +1,9 @@
+{
+  "version": "6.0.0",
+  "run": [
+    {
+      "method": "script.stop",
+      "params": { "path": "start.json" }
+    }
+  ]
+}
