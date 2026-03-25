@@ -7,23 +7,22 @@ module.exports = {
     let running   = info.running("start.json");
 
     if (running) {
-      const url = info.local("url");
       return [
-        { text: "🌐 Open Web UI", href: url, popout: true },
-        { text: "⏹ Stop",         href: "stop.json" }
+        { text: "Open Web UI", href: "http://127.0.0.1:7861", popout: true },
+        { text: "Stop",        href: "stop.json" }
       ];
     }
 
     if (!installed) {
       return [
-        { text: "⚙️ Install", href: "install.json" }
+        { text: "Install", href: "install.json" }
       ];
     }
 
     return [
-      { text: "▶️ Start",   href: "start.json"  },
-      { text: "🔄 Update",  href: "update.json" },
-      { text: "🗑️ Reset",   href: "reset.json"  }
+      { text: "Start",  href: "start.json"  },
+      { text: "Update", href: "update.json" },
+      { text: "Reset",  href: "reset.json"  }
     ];
   }
 };
