@@ -1,0 +1,6 @@
+{
+  "title": "Silero VAD – Audiobook Cleaner",
+  "description": "Remove long silences, ghost sounds and glitches from TTS audiobooks using Silero VAD",
+  "icon": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png",
+  "github": "https://github.com/ouranos6/pinokio-silero-vad"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "6.0.0",
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "uv pip install --upgrade silero-vad gradio soundfile",
+        "venv": "env"
+      }
+    }
+  ]
+}

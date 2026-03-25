@@ -1,0 +1,25 @@
+{
+  "version": "6.0.0",
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "uv venv env --python 3.11",
+        "venv": null
+      }
+    },
+    {
+      "method": "script.run",
+      "params": {
+        "path": "torch.js"
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "uv pip install silero-vad gradio soundfile",
+        "venv": "env"
+      }
+    }
+  ]
+}
