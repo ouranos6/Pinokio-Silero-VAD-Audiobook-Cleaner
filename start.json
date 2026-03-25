@@ -5,20 +5,7 @@
       "method": "shell.run",
       "params": {
         "message": "python app.py",
-        "venv": "env",
-        "env": { "PORT": "{{port}}" },
-        "on": [
-          {
-            "event": "/https?:\\/\\/[\\w\\.:]+/",
-            "done": true
-          }
-        ]
-      }
-    },
-    {
-      "method": "local.set",
-      "params": {
-        "url": "{{input}}"
+        "venv": "env"
       }
     }
   ]
